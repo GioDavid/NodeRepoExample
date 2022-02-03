@@ -1,0 +1,23 @@
+{
+  "name": "stdin-stdout-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "keywords": [],
+  "author": "David Proaño",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
+    "node-fetch": "^3.2.0"
+  }
+}
